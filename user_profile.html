@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>User Profile</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   <header class="header">
+   
+      <section class="flex">
+   
+         <a href="home.html" class="logo"><i class="fas fa-arrows-rotate"></i> SwapSkillz</a>
+   
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="Search Skills..." maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+   
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user-graduate"></div>
+            <div id="toggle-btn" class="fa-solid fa-lightbulb"></div>
+         </div>
+   
+         <div class="profile">
+            <img src="images/profile3.jpg" class="image" alt="">
+            <h3 class="name">Hritik Singh</h3>
+            <p class="role">Gold</p>
+            <a href="" class="btn">View Profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">Login</a>
+               <a href="register.html" class="option-btn">Register</a>
+            </div>
+         </div>
+   
+      </section>
+   
+   </header>   
+   
+   <div class="side-bar">
+   
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+   
+      <div class="profile">
+         <img src="images/profile3.jpg" class="image" alt="">
+         <h3 class="name">Hritik Singh</h3>
+         <p class="role">Gold</p>
+         <a href="profile.html" class="btn">View Profile</a>
+      </div>
+   
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="about.html"><i class="fa-solid fa-address-card"></i><span>About</span></a>
+         <a href="Swap.html"><i class="fas fa-arrows-rotate"></i><span>Swap</span></a>
+         <a href="teachers.html"><i class="fa-solid fa-message"></i><span>Notifications</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      </nav>
+   
+   </div>
+
+<section class="playlist-details">
+
+   <h1 class="heading">User Details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <!-- <div class="flex">
+            <p>total playlists : <span>4</span></p>
+            <p>total videos : <span>18</span></p>
+            <p>total likes : <span>1208</span></p>
+            <p>total comments : <span>52</span></p>
+         </div> -->
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>Bookmark Profile</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="images/react.png" alt="">
+            <span>50 Swaps</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/profile.jpg" alt="">
+            <div>
+               <h3>Hritik Kumar</h3>
+               <span>Gold</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>Web Development</h3>
+            <p>"Checkmating challenges on the chessboard, while crafting ReactJS magic in the digital realm."</p>
+            <a href="" class="inline-btn">Swap Request</a>
+         </div>
+         <div class="flex">
+            <p>Total Swaps : <span>100</span></p>
+            <p>Up-Votes: <span> 90</span></p>
+            <!-- <p>total likes : <span>1208</span></p>
+            <p>total comments : <span>52</span></p> -->
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">Additional Skills</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="">
+         <i ></i>
+         <img src="images/thumb-5.png" alt="">
+         <h3>JQuery</h3>
+      </a>
+
+      <a class="box" href="">
+         <i ></i>
+         <img src="images/thumb-2.png" alt="">
+         <h3>CSS</h3>
+      </a>
+
+      <a class="box" href="">
+         <i ></i>
+         <img src="images/chessbg.jpg" alt="">
+         <h3>Chess</h3>
+      </a>
+
+      <!-- <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="images/post-1-4.png" alt="">
+         <h3>complete HTML tutorial (part 04)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="images/post-1-5.png" alt="">
+         <h3>complete HTML tutorial (part 05)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="images/post-1-6.png" alt="">
+         <h3>complete HTML tutorial (part 06)</h3>
+      </a> -->
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   Copyright © 2023  <span>Swapskillz.</span> All rights reserved.
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
